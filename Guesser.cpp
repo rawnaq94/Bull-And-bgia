@@ -1,17 +1,25 @@
 #include "Guesser.hpp"
 #include <string>
 using std::string;
-namespace bullpgia{
-    uint length;
-    string s;
 
-void Guesser::startNewGame(uint length){
 
- }
-void Guesser::learn(string s){
-     
- }
+namespace bullpgia
+{
+      uint len;
+      string str;
 
- string Guesser::guess(){
+void Guesser::startAgain(uint len)
+{
+
 }
+void Guesser::learn(string str)
+{
+     
+}
+
+string Guesser::guess() 
+{
+
+}
+
 }
