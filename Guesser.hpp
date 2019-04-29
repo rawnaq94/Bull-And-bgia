@@ -7,12 +7,12 @@ namespace bullpgia
     class Guesser
     {
          protected:
-           string str;
-           uint len;
-         
+         string s;
+         uint length;
+        
          public:
         virtual string guess() = 0;
-        virtual void startAgain(uint len){};
-        virtual void learn(string str){};
+         virtual void startNewGame(uint length){};
+        virtual void learn(string s){};
     };
 }
