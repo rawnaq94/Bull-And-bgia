@@ -3,15 +3,14 @@
 using std::string;
 using namespace std;
 
-namespace bullpgia{
-    
-    class Chooser{
+namespace bullpgia
+{ 
+    class Chooser
+    {
         private:
-        uint length;
+        uint len;
         
         public: 
-        virtual string choose(uint length)=0;
-
+        virtual string choose(uint len) = 0;
     };
-
 }
