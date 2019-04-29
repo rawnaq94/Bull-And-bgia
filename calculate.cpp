@@ -6,7 +6,7 @@ namespace bullpgia
 {
     string bullpgia::calculateBullAndPgia(string choice, string guess)
     {
-    string str = "";
-    return str;
+    string s = "";
+    return s;
     }
 }
