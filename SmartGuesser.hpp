@@ -10,8 +10,8 @@ namespace bullpgia
     {
         public:
 
-        void learn(string str)override;
-        void startAgain(uint len)override;
+        void learn(string s)override;
+        void startNewGame(uint length)override;
         string guess() override;   
     }; 
 }
