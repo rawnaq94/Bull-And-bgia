@@ -13,7 +13,7 @@ void ConstGuesser::learn(string str)
 {
 
 }
-void ConstGuesser::start(uint len)
+void ConstGuesser::startAgain(uint len)
 {
 
 }
@@ -21,7 +21,7 @@ void RandomGuesser::learn(string str)
 {
 
 }
-void RandomGuesser::start(uint len) 
+void RandomGuesser::startAgain(uint len) 
 {
 
 }
