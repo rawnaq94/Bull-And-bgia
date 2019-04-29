@@ -1,21 +1,16 @@
 #include <string>
-#include <iostream>
 #include "SmartGuesser.hpp"
+#include "Guesser.hpp"
 using std::string;
 
 
-namespace bullpgia
-{
-    void SmartGuesser::learn(int reply)
-    {
+string bullpgia::SmartGuesser::guess(){
+    string s;
+    return s;
+}
+ void bullpgia::SmartGuesser::learn(string s){
 
-    }
-    string SmartGuesser::guess()
-    {
-        return "";
-    }
-    void SmartGuesser::startNewGame(uint length)
-    {
+ }
+ void bullpgia::SmartGuesser::startNewGame(uint length){
 
-    }
-};
+ }
