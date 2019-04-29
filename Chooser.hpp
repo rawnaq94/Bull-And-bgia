@@ -1,13 +1,13 @@
 #pragma once
-#include <iostream>
-using namespace std;
+#include <string>
 
 
 namespace bullpgia
 {
    class Chooser
    {
-    public:
-    virtual string choose(uint length) = 0;
-    };
-}; 
+      public:
+      virtual ~Chooser(){};
+      virtual std::string choose(size_t len) = 0;
+   };
+}
