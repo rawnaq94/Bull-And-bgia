@@ -1,10 +1,8 @@
 #pragma once
+#include <string>
+using namespace std;
 
+namespace bullpgia{
 
-namespace bullpgia
-{
-    int calculateBullAndPgia(string choice, string guess)
-    {
-        return 0;
-    }
-};
+    string calculateBullAndPgia(string choice, string guess);
+}
