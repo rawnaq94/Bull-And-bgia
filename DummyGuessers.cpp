@@ -9,11 +9,11 @@ std::string RandomGuesser::guess() {
 	}
 	return r;
 }
-void ConstGuesser::learn(string str)
+void ConstantGuesser::learn(string str)
 {
 
 }
-void ConstGuesser::startAgain(uint len)
+void ConstantGuesser::startAgain(uint len)
 {
 
 }
