@@ -4,15 +4,14 @@
 #include "Guesser.hpp"
 using std::string;
 
-namespace bullpgia{
-    class SmartGuesser:public bullpgia::Guesser{
-
-        
+namespace bullpgia
+{
+    class SmartGuesser:public bullpgia::Guesser
+    {
         public:
 
-        void learn(string s)override;
-        void startNewGame(uint length)override;
-        string guess() override;
-        
+        void learn(string str)override;
+        void startAgain(uint len)override;
+        string guess() override;   
     }; 
 }
