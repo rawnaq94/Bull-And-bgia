@@ -4,13 +4,16 @@
 using std::string;
 
 
-string bullpgia::SmartGuesser::guess(){
-    string s;
-    return s;
+string bullpgia::SmartGuesser::guess()
+{
+    string str;
+    return str;
 }
- void bullpgia::SmartGuesser::learn(string s){
+void bullpgia::SmartGuesser::learn(string str)
+{
 
- }
- void bullpgia::SmartGuesser::startNewGame(uint length){
+}
+void bullpgia::SmartGuesser::startAgain(uint len)
+{
 
- }
+}
