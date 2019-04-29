@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>
+#include <string>
 using std::string;
 
 namespace bullpgia
@@ -7,11 +7,12 @@ namespace bullpgia
     class Guesser
     {
          protected:
+           string s;
          uint length;
          
          public:
-         virtual void startNewGame(uint Length){}
-         virtual string guess()=0;
-         virtual void learn(int reply){}
+           virtual string guess()=0;
+        virtual void startNewGame(uint length){};
+        virtual void learn(string s){};
     };
-}; 
+}
