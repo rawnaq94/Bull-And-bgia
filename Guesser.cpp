@@ -5,14 +5,15 @@ using std::string;
 
 namespace bullpgia
 {
-      uint len;
-      string str;
+        uint length;
+        string s;
 
-void Guesser::startAgain(uint len)
+
+void Guesser::startNewGame(uint length)
 {
 
 }
-void Guesser::learn(string str)
+void Guesser::learn(string s)
 {
      
 }
