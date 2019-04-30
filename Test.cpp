@@ -51,11 +51,8 @@ int main() {
 		.CHECK_EQUAL(play(c1234, g1234, 4, 100), 1)                  // guesser wins in one turn.
 		.CHECK_EQUAL(play(c1234, g9999, 4, 100), 101)               // guesser loses by running out of turns .
 		.CHECK_EQUAL(play(c1234, g12345, 4, 100), 101)             // guesser loses technically by making an illegal guess (too long).
-		.CHECK_EQUAL(play(c12345, g1234, 4, 100), 0)              // chooser loses technically by choosing an illegal number (too long).
-		.CHECK_EQUAL(play(c1234, g123456789, 9, 100), 0)        // chooser loses technically by choosing an illegal number (too long).	
-		.CHECK_EQUAL(play(c1234, g9999, 4, 57), 58)            // guesser loses by running out of turns.
-		.CHECK_EQUAL(play(c456789, g456789, 6, 100), 1)       // guesser wins in one turn.	
-		.CHECK_EQUAL(play(c456789, g1234, 5, 100), 0)        // chooser loses technically by choosing an illegal number (too long).		
+		.CHECK_EQUAL(play(c12345, g1234, 4, 100), 0)              // chooser loses technically by choosing an illegal number (too long).	
+		.CHECK_EQUAL(play(c1234, g9999, 4, 57), 58)            // guesser loses by running out of turns.	
 	        ;
 
 		testcase.setname("Play with smart guesser");
